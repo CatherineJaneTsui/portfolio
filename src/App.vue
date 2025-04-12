@@ -14,15 +14,15 @@
     </header>
 
     <section id="home" class="home">
-      <h1>欢迎来到我的个人网站</h1>
-      <p>生活需要温暖，梦想需要勇气</p>
+      <h1>欢迎来到我的简历网站</h1>
+      <p>教育的本质是点燃火焰，而非灌输知识</p>
     </section>
 
     <section id="about" class="about">
       <h2>关于我</h2>
       <div class="about-content">
-        <img src="your-photo.jpg" alt="My Photo" class="about-photo" />
-        <p>我叫崔小萌，今年24岁，毕业于山东科技大学，专业是数学与应用数学。拥有2年工作经验，曾在多所学校担任数学教师。我擅长数学教学、学生辅导，并且具备一定的管理实习经验。</p>
+        <img src="./assets/profile_photo.jpg" alt="My Photo" class="about-photo" />
+        <p>我叫崔小萌，生于2000年，毕业于山东科技大学，专业主修数学与应用数学。拥有3年工作经验，曾在多所学校担任数学教师。擅长数学教学、学生辅导，并且具备一定的管理实习经验。</p>
       </div>
     </section>
 
@@ -31,7 +31,7 @@
       <div class="experience-list">
         <div class="experience-item">
           <h3>勤思数学 - 教师</h3>
-          <p class="time">2023年9月 - 至今</p>
+          <p class="time">2023年9月 - 2025年1月</p>
           <ul class="description">
             <li>新教师入职培训</li>
             <li>根据学生情况制定教学计划</li>
@@ -40,7 +40,7 @@
           </ul>
         </div>
         <div class="experience-item">
-          <h3>致远中学 - 初中数学教师</h3>
+          <h3>青岛西海岸新区致远中学 - 初中数学教师</h3>
           <p class="time">2024年3月 - 2024年8月</p>
           <ul class="description">
             <li>班级平均成绩前三名，优秀率15％，及格率72％</li>
@@ -62,16 +62,33 @@
       <h2>我的成就</h2>
       <div class="achievements-list">
         <div class="achievement-item">
-          <h3>第十届山东省大学生数学竞赛（数学B组）</h3>
-          <p class="level">省级二等奖</p>
-        </div>
-        <div class="achievement-item">
           <h3>第十一届全国大学生数学竞赛（数学B类）</h3>
           <p class="level">国家级三等奖</p>
         </div>
+
         <div class="achievement-item">
           <h3>全国大学生数学建模竞赛（山东赛区）</h3>
           <p class="level">省级二等奖</p>
+        </div>
+        
+        <div class="achievement-item">
+          <h3>第十届山东省大学生数学竞赛（数学B组）</h3>
+          <p class="level">省级二等奖</p>
+        </div>
+
+        <div class="achievement-item">
+          <h3>大学英语四六级考试</h3>
+          <p class="level">CET-4</p>
+        </div>
+
+        <div class="achievement-item">
+          <h3>中华人民共和国教师资格证书</h3>
+          <p class="level">高级中学教师资格（数学）</p>
+        </div>
+
+        <div class="achievement-item">
+          <h3>普通话水平测试等级证书</h3>
+          <p class="level">二级甲等</p>
         </div>
       </div>
     </section>
@@ -96,6 +113,24 @@
             <li>C语言：96/90</li>
           </ul>
         </div>
+
+        <div class="education-item">
+          <h3>山东省福山第一中学</h3>
+          <p class="degree">高中</p>
+          <p class="time">2015年9月 - 2018年6月</p>
+          <p class="description">学科成绩（GPA 3.51）</p>
+          <ul class="course-list">
+            <li>高考数学：146</li>
+            <li>高等代数：96/91</li>
+            <li>空间解析几何：93</li>
+            <li>大学英语：73/60</li>
+            <li>常微分方程：96</li>
+            <li>离散数学：95</li>
+            <li>概率论与数理统计：96</li>
+            <li>微分几何：92</li>
+            <li>C语言：96/90</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -103,9 +138,9 @@
       <h2>联系方式</h2>
       <div class="contact-info">
         <p><strong>电话：</strong>18765067632</p>
-        <p><strong>邮箱：</strong>sn415215@163.com</p>
+        <p><strong>邮箱：</strong>catherine.jane.tsui@gmail.com</p>
         <p><strong>期望薪资：</strong>9-14K</p>
-        <p><strong>期望城市：</strong>青岛</p>
+        <p><strong>期望城市：</strong>温州市</p>
       </div>
     </section>
 
@@ -170,7 +205,7 @@ nav {
 .home {
   text-align: center;
   background: linear-gradient(135deg, #a8d08d, #82b46e); /* 抹茶绿色和草绿色渐变 */
-  padding: 60px 20px;
+  padding: 10px 20px;
   color: white;
   margin-top: 80px; /* 给固定导航留出空间 */
 }
