@@ -118,17 +118,8 @@
           <h3>山东省福山第一中学</h3>
           <p class="degree">高中</p>
           <p class="time">2015年9月 - 2018年6月</p>
-          <p class="description">学科成绩（GPA 3.51）</p>
           <ul class="course-list">
             <li>高考数学：146</li>
-            <li>高等代数：96/91</li>
-            <li>空间解析几何：93</li>
-            <li>大学英语：73/60</li>
-            <li>常微分方程：96</li>
-            <li>离散数学：95</li>
-            <li>概率论与数理统计：96</li>
-            <li>微分几何：92</li>
-            <li>C语言：96/90</li>
           </ul>
         </div>
       </div>
