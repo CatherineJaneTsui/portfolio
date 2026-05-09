@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="<%= BASE_URL %>favicon.svg">
+    <link rel="alternate icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="apple-touch-icon" href="<%= BASE_URL %>favicon.svg">
+
+    <!-- Title & Meta -->
+    <title>崔小萌 · 数学教师</title>
+    <meta name="description" content="崔小萌，数学教师，毕业于山东科技大学，专注于初高中数学教学与竞赛辅导。">
+    <meta name="author" content="崔小萌">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="崔小萌 · 数学教师">
+    <meta property="og:description" content="数学教师，毕业于山东科技大学，专注于初高中数学教学与竞赛辅导。">
+    <meta property="og:type" content="website">
+
+    <!-- Theme color (browser UI accent) -->
+    <meta name="theme-color" content="#1a1f2e">
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>请启用 JavaScript 以正常访问本网站。</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
